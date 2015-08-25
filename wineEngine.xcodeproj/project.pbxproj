@@ -13,6 +13,23 @@
 		1A81B7B91B8BCBF100AAE63F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A81B7B81B8BCBF100AAE63F /* Images.xcassets */; };
 		1A81B7BC1B8BCBF100AAE63F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A81B7BA1B8BCBF100AAE63F /* LaunchScreen.xib */; };
 		1A81B7C81B8BCBF100AAE63F /* wineEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A81B7C71B8BCBF100AAE63F /* wineEngineTests.swift */; };
+		1A81B7D41B8BE7A600AAE63F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81B7D31B8BE7A600AAE63F /* AudioToolbox.framework */; };
+		1A81B7D61B8BE7B200AAE63F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81B7D51B8BE7B200AAE63F /* CFNetwork.framework */; };
+		1A81B7D81B8BE7BD00AAE63F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81B7D71B8BE7BD00AAE63F /* CoreGraphics.framework */; };
+		1A81B7DA1B8BE7C800AAE63F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81B7D91B8BE7C800AAE63F /* CoreLocation.framework */; };
+		1A81B7DC1B8BE7D600AAE63F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81B7DB1B8BE7D600AAE63F /* QuartzCore.framework */; };
+		1A81B7DE1B8BE7E100AAE63F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81B7DD1B8BE7E100AAE63F /* Security.framework */; };
+		1A81B7E01B8BE7ED00AAE63F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81B7DF1B8BE7ED00AAE63F /* StoreKit.framework */; };
+		1A81B7E21B8BE7FE00AAE63F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81B7E11B8BE7FE00AAE63F /* SystemConfiguration.framework */; };
+		1A81B7E41B8BE80D00AAE63F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81B7E31B8BE80D00AAE63F /* libz.dylib */; };
+		1A81B7E61B8BE81A00AAE63F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81B7E51B8BE81A00AAE63F /* libsqlite3.dylib */; };
+		1AA74E7B1B8BEA2300DE9C95 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA74E7A1B8BEA2300DE9C95 /* Parse.framework */; };
+		1AA74E7D1B8BEA2C00DE9C95 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA74E7C1B8BEA2C00DE9C95 /* Bolts.framework */; };
+		1ADAE2C41B8C1B3600B379A1 /* questionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAE2C31B8C1B3600B379A1 /* questionsViewController.swift */; };
+		1ADAE2C61B8C20A800B379A1 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAE2C51B8C20A800B379A1 /* SliderCell.swift */; };
+		1ADAE2C91B8C285400B379A1 /* Star_notSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADAE2C71B8C285400B379A1 /* Star_notSelected.png */; };
+		1ADAE2CA1B8C285400B379A1 /* star_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADAE2C81B8C285400B379A1 /* star_selected.png */; };
+		1ADAE2CC1B8C2E5C00B379A1 /* StarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAE2CB1B8C2E5C00B379A1 /* StarTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +53,24 @@
 		1A81B7C11B8BCBF100AAE63F /* wineEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wineEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A81B7C61B8BCBF100AAE63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A81B7C71B8BCBF100AAE63F /* wineEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wineEngineTests.swift; sourceTree = "<group>"; };
+		1A81B7D31B8BE7A600AAE63F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1A81B7D51B8BE7B200AAE63F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1A81B7D71B8BE7BD00AAE63F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A81B7D91B8BE7C800AAE63F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1A81B7DB1B8BE7D600AAE63F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1A81B7DD1B8BE7E100AAE63F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1A81B7DF1B8BE7ED00AAE63F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1A81B7E11B8BE7FE00AAE63F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1A81B7E31B8BE80D00AAE63F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1A81B7E51B8BE81A00AAE63F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1AA74E781B8BE9DE00DE9C95 /* project.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = project.xcworkspace; path = wineEngine.xcodeproj/project.xcworkspace; sourceTree = "<group>"; };
+		1AA74E7A1B8BEA2300DE9C95 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1AA74E7C1B8BEA2C00DE9C95 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1ADAE2C31B8C1B3600B379A1 /* questionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = questionsViewController.swift; sourceTree = "<group>"; };
+		1ADAE2C51B8C20A800B379A1 /* SliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		1ADAE2C71B8C285400B379A1 /* Star_notSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_notSelected.png; sourceTree = "<group>"; };
+		1ADAE2C81B8C285400B379A1 /* star_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_selected.png; sourceTree = "<group>"; };
+		1ADAE2CB1B8C2E5C00B379A1 /* StarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +78,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A81B7E61B8BE81A00AAE63F /* libsqlite3.dylib in Frameworks */,
+				1A81B7E41B8BE80D00AAE63F /* libz.dylib in Frameworks */,
+				1A81B7E21B8BE7FE00AAE63F /* SystemConfiguration.framework in Frameworks */,
+				1AA74E7D1B8BEA2C00DE9C95 /* Bolts.framework in Frameworks */,
+				1A81B7E01B8BE7ED00AAE63F /* StoreKit.framework in Frameworks */,
+				1A81B7DE1B8BE7E100AAE63F /* Security.framework in Frameworks */,
+				1A81B7DC1B8BE7D600AAE63F /* QuartzCore.framework in Frameworks */,
+				1AA74E7B1B8BEA2300DE9C95 /* Parse.framework in Frameworks */,
+				1A81B7DA1B8BE7C800AAE63F /* CoreLocation.framework in Frameworks */,
+				1A81B7D81B8BE7BD00AAE63F /* CoreGraphics.framework in Frameworks */,
+				1A81B7D61B8BE7B200AAE63F /* CFNetwork.framework in Frameworks */,
+				1A81B7D41B8BE7A600AAE63F /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +106,7 @@
 		1A81B7A31B8BCBF100AAE63F = {
 			isa = PBXGroup;
 			children = (
+				1AA74E781B8BE9DE00DE9C95 /* project.xcworkspace */,
 				1A81B7AE1B8BCBF100AAE63F /* wineEngine */,
 				1A81B7C41B8BCBF100AAE63F /* wineEngineTests */,
 				1A81B7AD1B8BCBF100AAE63F /* Products */,
@@ -79,7 +127,10 @@
 			children = (
 				1A81B7B11B8BCBF100AAE63F /* AppDelegate.swift */,
 				1A81B7B31B8BCBF100AAE63F /* ViewController.swift */,
+				1ADAE2C31B8C1B3600B379A1 /* questionsViewController.swift */,
 				1A81B7B51B8BCBF100AAE63F /* Main.storyboard */,
+				1ADAE2CB1B8C2E5C00B379A1 /* StarTableViewCell.swift */,
+				1ADAE2C51B8C20A800B379A1 /* SliderCell.swift */,
 				1A81B7B81B8BCBF100AAE63F /* Images.xcassets */,
 				1A81B7BA1B8BCBF100AAE63F /* LaunchScreen.xib */,
 				1A81B7AF1B8BCBF100AAE63F /* Supporting Files */,
@@ -90,6 +141,9 @@
 		1A81B7AF1B8BCBF100AAE63F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1ADAE2C71B8C285400B379A1 /* Star_notSelected.png */,
+				1ADAE2C81B8C285400B379A1 /* star_selected.png */,
+				1A81B7E71B8BE83700AAE63F /* Frameworks */,
 				1A81B7B01B8BCBF100AAE63F /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +164,26 @@
 				1A81B7C61B8BCBF100AAE63F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A81B7E71B8BE83700AAE63F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AA74E7C1B8BEA2C00DE9C95 /* Bolts.framework */,
+				1AA74E7A1B8BEA2300DE9C95 /* Parse.framework */,
+				1A81B7D31B8BE7A600AAE63F /* AudioToolbox.framework */,
+				1A81B7D51B8BE7B200AAE63F /* CFNetwork.framework */,
+				1A81B7D71B8BE7BD00AAE63F /* CoreGraphics.framework */,
+				1A81B7D91B8BE7C800AAE63F /* CoreLocation.framework */,
+				1A81B7DB1B8BE7D600AAE63F /* QuartzCore.framework */,
+				1A81B7DD1B8BE7E100AAE63F /* Security.framework */,
+				1A81B7DF1B8BE7ED00AAE63F /* StoreKit.framework */,
+				1A81B7E11B8BE7FE00AAE63F /* SystemConfiguration.framework */,
+				1A81B7E51B8BE81A00AAE63F /* libsqlite3.dylib */,
+				1A81B7E31B8BE80D00AAE63F /* libz.dylib */,
+			);
+			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +268,9 @@
 			files = (
 				1A81B7B71B8BCBF100AAE63F /* Main.storyboard in Resources */,
 				1A81B7BC1B8BCBF100AAE63F /* LaunchScreen.xib in Resources */,
+				1ADAE2C91B8C285400B379A1 /* Star_notSelected.png in Resources */,
 				1A81B7B91B8BCBF100AAE63F /* Images.xcassets in Resources */,
+				1ADAE2CA1B8C285400B379A1 /* star_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +290,9 @@
 			files = (
 				1A81B7B41B8BCBF100AAE63F /* ViewController.swift in Sources */,
 				1A81B7B21B8BCBF100AAE63F /* AppDelegate.swift in Sources */,
+				1ADAE2C61B8C20A800B379A1 /* SliderCell.swift in Sources */,
+				1ADAE2C41B8C1B3600B379A1 /* questionsViewController.swift in Sources */,
+				1ADAE2CC1B8C2E5C00B379A1 /* StarTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +421,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = wineEngine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +435,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = wineEngine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +498,7 @@
 				1A81B7CD1B8BCBF100AAE63F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A81B7CE1B8BCBF100AAE63F /* Build configuration list for PBXNativeTarget "wineEngineTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +507,7 @@
 				1A81B7D01B8BCBF100AAE63F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
