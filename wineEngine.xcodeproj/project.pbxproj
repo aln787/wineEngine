@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4CA17A1B8ECA40006DF20B /* WineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CA1791B8ECA40006DF20B /* WineViewController.swift */; };
 		1A81B7B21B8BCBF100AAE63F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A81B7B11B8BCBF100AAE63F /* AppDelegate.swift */; };
 		1A81B7B41B8BCBF100AAE63F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A81B7B31B8BCBF100AAE63F /* ViewController.swift */; };
 		1A81B7B71B8BCBF100AAE63F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A81B7B51B8BCBF100AAE63F /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A4CA1791B8ECA40006DF20B /* WineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineViewController.swift; sourceTree = "<group>"; };
 		1A81B7AC1B8BCBF100AAE63F /* wineEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wineEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A81B7B01B8BCBF100AAE63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A81B7B11B8BCBF100AAE63F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				1A81B7B11B8BCBF100AAE63F /* AppDelegate.swift */,
 				1A81B7B31B8BCBF100AAE63F /* ViewController.swift */,
 				1ADAE2C31B8C1B3600B379A1 /* questionsViewController.swift */,
+				1A4CA1791B8ECA40006DF20B /* WineViewController.swift */,
 				1A81B7B51B8BCBF100AAE63F /* Main.storyboard */,
 				1ADAE2CB1B8C2E5C00B379A1 /* StarTableViewCell.swift */,
 				1ADAE2C51B8C20A800B379A1 /* SliderCell.swift */,
@@ -291,6 +294,7 @@
 				1A81B7B41B8BCBF100AAE63F /* ViewController.swift in Sources */,
 				1A81B7B21B8BCBF100AAE63F /* AppDelegate.swift in Sources */,
 				1ADAE2C61B8C20A800B379A1 /* SliderCell.swift in Sources */,
+				1A4CA17A1B8ECA40006DF20B /* WineViewController.swift in Sources */,
 				1ADAE2C41B8C1B3600B379A1 /* questionsViewController.swift in Sources */,
 				1ADAE2CC1B8C2E5C00B379A1 /* StarTableViewCell.swift in Sources */,
 			);

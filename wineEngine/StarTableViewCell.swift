@@ -68,8 +68,12 @@ public class StarTableViewCell: UITableViewCell {
     }
     
     
-    public func configure(#text: String) {
+    public func configure(text: String, numStars: Int) {
         label.text = text
+        NSLog("Number of stars: %d", numStars)
+        for index in 1...numStars {
+            buttons[index - 1].selected = true
+        }
         for button in buttons {
             button.setImage(UIImage(named: "Star_selected"), forState: UIControlState.Selected)
             button.setImage(UIImage(named: "Star_notSelected"), forState: UIControlState.Normal)

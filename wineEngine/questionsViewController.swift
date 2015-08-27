@@ -17,6 +17,7 @@ class questionsViewController:  UIViewController, UITableViewDelegate, UITableVi
     
     @IBOutlet
     var tableView: UITableView!
+    var questions: [String] = []
     
     var items: [String] = ["How Bold do you like your wine?"]
 //    var parseItems: [String] = []
@@ -24,18 +25,17 @@ class questionsViewController:  UIViewController, UITableViewDelegate, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         
-// TODO: Store / retrieve data from parse
-//////Getting ready to store data in parse
-//        let testObject = PFObject(className: "question")
-//        testObject["detail"] = "How Bold do you like your wine?"
-//        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
-//            println("Object has been saved.")
-//        }
-        
-        
-        
-        //Removing this line to use the protype cell declared in the storyboard
-        //self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "sliderCell")
+        var query = PFQuery(className: "Questions")
+        query.findObjectsInBackgroundWithBlock({
+            (objectsArray : [AnyObject]?, error: NSError?) -> Void in
+            
+            for obj in objectsArray! {
+                var str = obj["question"]
+                self.questions.append(str! as! String)
+            }
+            
+            self.tableView.reloadData()
+        })
     }
     
     override func didReceiveMemoryWarning() {
@@ -45,9 +45,13 @@ class questionsViewController:  UIViewController, UITableViewDelegate, UITableVi
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        if ((indexPath.row + 1) > self.items.count) {
+        if (indexPath.row == questions.count + 1) {
+            //test
+            var cell:UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("submit") as! UITableViewCell
+            return cell
+        } else if ((indexPath.row + 1) > self.items.count) {
             var starCell = self.tableView.dequeueReusableCellWithIdentifier("starCell") as! StarTableViewCell
-            starCell.configure(text: "How jammy do you like your wine?")
+            starCell.configure(questions[indexPath.row - 1], numStars: 3)
             return starCell
         } else {
             var cell = self.tableView.dequeueReusableCellWithIdentifier("sliderCell") as! SliderTableViewCell
@@ -58,7 +62,7 @@ class questionsViewController:  UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.items.count + 1;
+        return questions.count + 2;
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
