@@ -26,6 +26,7 @@
 		1A81B7E61B8BE81A00AAE63F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A81B7E51B8BE81A00AAE63F /* libsqlite3.dylib */; };
 		1AA74E7B1B8BEA2300DE9C95 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA74E7A1B8BEA2300DE9C95 /* Parse.framework */; };
 		1AA74E7D1B8BEA2C00DE9C95 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA74E7C1B8BEA2C00DE9C95 /* Bolts.framework */; };
+		1AC9D6761BB426150039D787 /* BottleDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC9D6751BB426150039D787 /* BottleDetails.swift */; };
 		1ADAE2C41B8C1B3600B379A1 /* questionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAE2C31B8C1B3600B379A1 /* questionsViewController.swift */; };
 		1ADAE2C61B8C20A800B379A1 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADAE2C51B8C20A800B379A1 /* SliderCell.swift */; };
 		1ADAE2C91B8C285400B379A1 /* Star_notSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADAE2C71B8C285400B379A1 /* Star_notSelected.png */; };
@@ -68,6 +69,7 @@
 		1AA74E781B8BE9DE00DE9C95 /* project.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = project.xcworkspace; path = wineEngine.xcodeproj/project.xcworkspace; sourceTree = "<group>"; };
 		1AA74E7A1B8BEA2300DE9C95 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		1AA74E7C1B8BEA2C00DE9C95 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1AC9D6751BB426150039D787 /* BottleDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottleDetails.swift; sourceTree = "<group>"; };
 		1ADAE2C31B8C1B3600B379A1 /* questionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = questionsViewController.swift; sourceTree = "<group>"; };
 		1ADAE2C51B8C20A800B379A1 /* SliderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
 		1ADAE2C71B8C285400B379A1 /* Star_notSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_notSelected.png; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				1ADAE2C31B8C1B3600B379A1 /* questionsViewController.swift */,
 				1A4CA1791B8ECA40006DF20B /* WineViewController.swift */,
 				1A81B7B51B8BCBF100AAE63F /* Main.storyboard */,
+				1AC9D6751BB426150039D787 /* BottleDetails.swift */,
 				1ADAE2CB1B8C2E5C00B379A1 /* StarTableViewCell.swift */,
 				1ADAE2C51B8C20A800B379A1 /* SliderCell.swift */,
 				1A81B7B81B8BCBF100AAE63F /* Images.xcassets */,
@@ -293,6 +296,7 @@
 			files = (
 				1A81B7B41B8BCBF100AAE63F /* ViewController.swift in Sources */,
 				1A81B7B21B8BCBF100AAE63F /* AppDelegate.swift in Sources */,
+				1AC9D6761BB426150039D787 /* BottleDetails.swift in Sources */,
 				1ADAE2C61B8C20A800B379A1 /* SliderCell.swift in Sources */,
 				1A4CA17A1B8ECA40006DF20B /* WineViewController.swift in Sources */,
 				1ADAE2C41B8C1B3600B379A1 /* questionsViewController.swift in Sources */,
